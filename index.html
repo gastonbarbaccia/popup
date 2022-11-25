@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content"
+                    style="background-image: url('fondo.jpg');background-size: cover;background-position: center;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="color: rgb(255, 255, 255)"><b>Abogadas Digital</b></h4>
+                    </div>
+                    <br>
+                    <br>
+                    <video src="CORTINILLAAD.mp4" autoplay="false" controls muted loop
+                        style="width:100%;position:relative;margin-top:-5%"></video>
+                    <br>
+                    <br>
+                    <div style="text-align: center">
+                        <div class="mt-5" style="margin-bottom:10%;margin-left:3%;border-radius: 50px !important;">
+                            <a target="blank" href="https://www.youtube.com/channel/UCIuQDUpJbgqrRV8_TrRvNKQ"> <button
+                                    type="button" class="btn btn-danger rounded-pill"
+                                    style="width:40%;height:50px;border-radius: 30px;    background-color: #e30700 !important">
+                                    Escúchanos! </button></a>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="margin-top:-30px">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        $(window).load(function () {
+            $('#myModal').modal('show');
+        });
+    </script>
+</body>
+
+</html>
